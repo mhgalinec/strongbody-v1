@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+</head>
+	<style>
+		body{margin: 0; padding:0; font-family:sans-serif; background-image:url('https://wallpaperaccess.com/full/1951962.png');}
+		.container{width: 300px; padding: 40px; position: absolute; top:50%; left:50%; transform: translate(-50%,-50%); text-align:center;}
+		.container label{color:white;}
+		.container input[type="text"], .container input[type="password"]{border:0; background:none; display:block; margin:20px auto; text-align:center; border: 2px solid #3498db; padding: 14px 10px; width: 200px; outline: none; color: white; border-radius: 24px; transition: 0.25s;}
+		.container input[type="text"]:focus, .container input[type="password"]:focus{width:220px;}	
+		.container input[type="submit"]{border:0; background:none; display:block; margin:20px auto; text-align:center; border: 2px solid #3498db; padding: 14px 10px; width: 225px; outline: none; color: white; border-radius: 24px; transition: 0.25s;}
+		.container input[type="submit"]:hover{width:245px;}	
+	</style>
+<body>
+<div class="container">
+	
+	<form action = "login" method ="POST">
+		<label for="username">Username</label>
+		<input type="text" name="username" id="username">
+		<label for="password">Password</label>
+		<input type="password" name="password" id="password">
+		<input type="submit" value="Submit">
+	</form>
+</div>
+</body>
+</html>

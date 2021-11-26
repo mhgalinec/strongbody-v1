@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Stoke:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Gidugu&display=swap');
+
+body {
+	
+	background: linear-gradient(110.3deg, rgba(72, 85, 99, 1) 8.8%,
+		rgba(127, 146, 166, 1) 95.1%) fixed;
+
+		
+}
+
+label,.d-flex,.cap,.navbar{
+	color:white;
+	font-family: 'Cinzel', serif;
+	
+}
+.fee{
+	color:black !important;
+	font-family: 'Cinzel', serif;
+}
+th,td{
+	font-family: 'Fjalla One', sans-serif;
+	
+}
+
+.btn-secondary{
+	background-color: #5B8DA4 !important;
+	font-family: 'Cinzel', serif;
+}
+.btn-danger{
+	background-color:  #A94359 !important;
+	font-family: 'Cinzel', serif;
+}
+
+.invalid-feedback{
+	color:black;
+
+}
