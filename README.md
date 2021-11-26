@@ -4,7 +4,7 @@
 
 ## Description
   - My first attempt at creating a web application
-  - For more details about the application visit the <i>[strongbody]()</i> repository where the upgraded version is(they have basically the same functionality)
+  - For more details about the application visit the <i>[strongbody](https://github.com/mhgalinec/strongbody)</i> repository where the upgraded version is(they have basically the same functionality)
   
 ## Technologies
   - JDK 11
